@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(45deg, #ffcba6, #ddffe7);
+    height: 100%;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#btn {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #700000;
+    border-radius: 50%;
+    background: #ff0000;
+    margin-bottom: 60px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.score {
+    border: 1px solid black;
+    width: 30vw;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.score th, .score td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.popup-login {
+    width: 100vw;
+    height: 100vh;
+    z-index: 9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(101, 101, 101, 0.67);
+}
+
+.popup-wrapper {
+    background: #fff;
+    width: 30vw;
+    margin: 40vh auto 0;
+    min-height: 10vw;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #a4a4a4;
+}
+
+.popup-header {
+    padding-top: 25px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.popup-input-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.popup-input {
+    min-height: 40px;
+    font-size: 20px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 5px;
+}
+.popup-btn {
+    width: 70%;
+    height: 40px;
+    background: #499cb9;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #004870;
+    cursor: pointer;
+    margin: 5px auto 50px;
+}
+.popup-content {
+    padding: 10px;
+}
+.hide {
+    display: none;
+}
+
+.top-players {
+    margin-bottom: 20px;
+}
+.clicks-count-parent {
+    font-weight: 700;
+    font-size: 25px;
+}
+.refresh {
+    margin-top: 15px;
+    font-size: 20px;
+    background: #dceafd;
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+}
